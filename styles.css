@@ -36,7 +36,7 @@ p { margin: 0 }
 .gcs { grid-column-start: 1 } /* Pushes the subsequent elements onto the next row, leaving current row empty */
 
 /* Flexbox */
-.faistr { display: flex;
+.faih { display: flex;
 	align-items: stretch; }
 
 /* Margins */

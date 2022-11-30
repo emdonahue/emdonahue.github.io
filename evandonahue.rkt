@@ -29,7 +29,7 @@
       (style ,(style)))
      (body	   
       ((a.jse.tm.navborder href index.html style (font-size 1.5em)) "Evan Donahue")
-      ((nav.jss.faistr.psb.navborder style (--s-b 100px)) ,@(navigation pageid))
+      ((nav.jss.faih.psb.navborder style (--s-b 100px)) ,@(navigation pageid))
       ((aside.tr.mbsb.gcs style (--s-b 40px)) ,@aside)
       (article.mbsb ,@article))) #t))
 
@@ -46,8 +46,8 @@
 
 (define (publications)
   (page 'publications
-	'("sidebar")
-	'("page content")))
+	'("")
+	'("Under Construction")))
 
 
 (with-output-to-file "index.html" (lambda () (display (index))) #:exists 'replace)
