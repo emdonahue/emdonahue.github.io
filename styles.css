@@ -63,3 +63,6 @@ p { margin: 0 }
 .tc { text-align: center }
 .tr { text-align: right }
 .tb { font-weight: bold }
+
+.thi { padding-left: var(--h-i, 20px); /* Text Hanging Indent */
+       text-indent: calc(-1 * var(--h-i, 20px)); }

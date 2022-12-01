@@ -13,7 +13,8 @@
 	       background-color "rgb(240, 240, 240)"
 	       color ,darkgray)
 	 (.navborder border-bottom (1px solid ,darkgray))
-	 (a text-decoration none font-size 1.2em color ,darkgray)
+	 (a text-decoration none color ,darkgray)
+	 ((nav a) font-size 1.2em )
 	 ("a:hover[href]" color green))))
 
 (define (navigation [curr-page 'index])
@@ -47,7 +48,12 @@
 (define (publications)
   (page 'publications
 	'("")
-	'("Under Construction")))
+	'((p.thi "Donahue, Evan. \"All The Microworld's A Stage: Realism in Interactive Fiction and Artificial Intelligence.\" " (i "American Literature") ". Forthcoming.")
+	  (p.thi "Donahue, Evan. \"Efficient Variational Inference in miniKanren with Weighted Model Counting.\" In " (i "miniKanren and Relational Programming Workshop") ", 2022. [" ((a href pdf/donahue_emkanren2022.pdf) Link) "]")
+	  (p.thi "Donahue, Evan. \"Towards an Android Linguistics: Pragmatics, Reflection, and Creativity in Machine Language.\" Proceedings of " (i "Theoretical and Foundational Problems in Information Studies") " 81, no. 1 (July 2022). [" ((a href pdf/donahue_towards2022.pdf) Link) "]")
+	  (p.thi "Donahue, Evan. \"Guarded Fresh Goals: Dependency-Directed Introduction of Fresh Logic Variables.\" In " (i "miniKanren and Relational Programming Workshop") ", 2021. [" ((a href "pdf/donahue_guarded2021.pdf") Link) "]")
+	  (p.thi "Donahue, Evan. \"Theseus in the Epistemic Labyrinth: A Critical History of the Semantic Differential Method and the Apparent Weight of Color.\" " (i "Machine Intelligences in Context: Beyond the Technological Sublime") ", special issue of " (i "Culture Machine") ", vol. 20, no. 1, 2021. [" ((a href pdf/donahue_semanticdifferential2021.pdf) Link) "]")
+	  (p.thi "Donahue, Evan. \"The Last Ship Sails: Raising the Titanic from Black Diamond Bay.\" " (i "Lute & Drum") ", vol. 7, no. 1, 2016. [" ((a href pdf/donahue_blackdiamond2016.pdf) Link) "]"))))
 
 
 (with-output-to-file "index.html" (lambda () (display (index))) #:exists 'replace)
