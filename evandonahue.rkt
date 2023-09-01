@@ -27,7 +27,8 @@
    `(html
      (head
       ((link rel stylesheet href styles.css))
-      (style ,(style)))
+      (style ,(style))
+      ((meta name viewport content "width=device-width,initial-scale=1")))
      (body	   
       ((a.jse.tm.navborder href index.html style (font-size 1.5em)) "Evan Donahue")
       ((nav.jss.faih.psb.navborder style (--s-b 100px)) ,@(navigation pageid))
@@ -48,10 +49,12 @@
 (define (publications)
   (page 'publications
 	'("")
-	'((p.thi "Donahue, Evan. \"All The Microworld's A Stage: Realism in Interactive Fiction and Artificial Intelligence.\" " (i "American Literature") ". Forthcoming.")
+	'((p.thi "Donahue, Evan. \"Goals as Constraints: Writing miniKanren Constraints in miniKanren.\" In " (i "miniKanren and Relational Programming Workshop") ", 2023. [" ((a href pdf/donahue_goalsasconstraint2023.pdf) Link) "]")
+	  (p.thi "Donahue, Evan. \"All The Microworld's A Stage: Realism in Interactive Fiction and Artificial Intelligence.\" " (i "American Literature 95") ". no. 2.")
 	  (p.thi "Donahue, Evan. \"Efficient Variational Inference in miniKanren with Weighted Model Counting.\" In " (i "miniKanren and Relational Programming Workshop") ", 2022. [" ((a href pdf/donahue_emkanren2022.pdf) Link) "]")
 	  (p.thi "Donahue, Evan. \"Towards an Android Linguistics: Pragmatics, Reflection, and Creativity in Machine Language.\" Proceedings of " (i "Theoretical and Foundational Problems in Information Studies") " 81, no. 1 (July 2022). [" ((a href pdf/donahue_towards2022.pdf) Link) "]")
-	  (p.thi "Donahue, Evan. \"Guarded Fresh Goals: Dependency-Directed Introduction of Fresh Logic Variables.\" In " (i "miniKanren and Relational Programming Workshop") ", 2021. [" ((a href "pdf/donahue_guarded2021.pdf") Link) "]")
+	  (p.thi "Donahue, Evan. \"Guarded Fresh Goals: Dependency-Directed Introduction of Fresh Logic Variables.\" In " (i "Proceedings of the 2021 miniKanren and Relational Programming Workshop") ". Virtual. 2021. 74-88. Mississauga:
+University of Toronto Mississauga [" ((a href "pdf/donahue_guarded2021.pdf") Link) "]")
 	  (p.thi "Donahue, Evan. \"Theseus in the Epistemic Labyrinth: A Critical History of the Semantic Differential Method and the Apparent Weight of Color.\" " (i "Machine Intelligences in Context: Beyond the Technological Sublime") ", special issue of " (i "Culture Machine") ", vol. 20, no. 1, 2021. [" ((a href pdf/donahue_semanticdifferential2021.pdf) Link) "]")
 	  (p.thi "Donahue, Evan. \"The Last Ship Sails: Raising the Titanic from Black Diamond Bay.\" " (i "Lute & Drum") ", vol. 7, no. 1, 2016. [" ((a href pdf/donahue_blackdiamond2016.pdf) Link) "]"))))
 
