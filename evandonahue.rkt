@@ -50,7 +50,7 @@
   (page 'publications
 	'("")
 	'((p.thi "Donahue, Evan. \"Goals as Constraints: Writing miniKanren Constraints in miniKanren.\" In " (i "miniKanren and Relational Programming Workshop") ", 2023. [" ((a href pdf/donahue_goalsasconstraints2023.pdf) Link) "]")
-	  (p.thi "Donahue, Evan. \"All The Microworld's A Stage: Realism in Interactive Fiction and Artificial Intelligence.\" " (i "American Literature 95") ". no. 2. [" ((a href https://read.dukeupress.edu/american-literature/article/95/2/229/344238/All-the-Microworld-s-a-Stage-Realism-in) Link) "]")
+	  (p.thi "Donahue, Evan. \"All The Microworld's A Stage: Realism in Interactive Fiction and Artificial Intelligence.\" " (i "American Literature") " 1. no. 2. (June 2023): 229-254. [" ((a href https://read.dukeupress.edu/american-literature/article/95/2/229/344238/All-the-Microworld-s-a-Stage-Realism-in) Link) "]")
 	  (p.thi "Donahue, Evan. \"Efficient Variational Inference in miniKanren with Weighted Model Counting.\" In " (i "miniKanren and Relational Programming Workshop") ", 2022. [" ((a href pdf/donahue_emkanren2022.pdf) Link) "]")
 	  (p.thi "Donahue, Evan. \"Towards an Android Linguistics: Pragmatics, Reflection, and Creativity in Machine Language.\" Proceedings of " (i "Theoretical and Foundational Problems in Information Studies") " 81, no. 1 (July 2022). [" ((a href pdf/donahue_towards2022.pdf) Link) "]")
 	  (p.thi "Donahue, Evan. \"Guarded Fresh Goals: Dependency-Directed Introduction of Fresh Logic Variables.\" In " (i "Proceedings of the 2021 miniKanren and Relational Programming Workshop") ". Virtual. 2021. 74-88. Mississauga:
