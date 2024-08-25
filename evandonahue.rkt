@@ -26,6 +26,7 @@
   (html
    `(html
      (head
+      ((link rel icon data "data:,"))
       ((link rel stylesheet href styles.css))
       (style ,(style))
       ((meta name viewport content "width=device-width,initial-scale=1")))
