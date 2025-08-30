@@ -39,7 +39,7 @@
 (define (index)
   (page 'index
    `(((p style (font-family monospace))
-      (script "document.write(atob(\"ZXZhbi5kb25haHVlQHNmdS5jYQ==\"))")
+      (script "document.write(atob(\"ZXZhbi5kb25haHVlQG5hdS5lZHU=\"))")
       (noscript "Email me at first.last at the SFU domain"))
      ((a href https://www.linkedin.com/in/evanmdonahue) LinkedIn))
    `(((img style (height 250px border (1px solid ,darkgray) padding 5px margin (0 0 20px 20px) float right) src "img/profile.jpg"))
